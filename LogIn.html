@@ -1,0 +1,39 @@
+<!-- this is the html for the log in page where users can input their existing username or create a username and associated directory -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogIn Page for Fileshareing Site</title>
+	<link rel="stylesheet" type="text/css" href="LogInStyle.css">
+</head>
+<body>
+
+<div id="LogInDiv">
+	<form action="LogIn.php" method="POST">
+
+		<p>
+			<label>Username:</label>
+			<input type="text" name="userName" id="userInputID"/>
+		</p>
+
+
+		<p>
+			<input type="submit" value="Send" />
+
+		</p>
+
+	</form>
+
+	<form action="NewUser.html" >
+
+		<p>
+			<input type="submit" value="Create a New User" />
+
+		</p>
+
+	</form>
+	
+</div>
+
+</body>
+</html>

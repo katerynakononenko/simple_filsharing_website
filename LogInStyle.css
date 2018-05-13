@@ -1,0 +1,13 @@
+/*This is the CSS styling for LogIn.html*/
+
+body {
+	background-color: cornsilk;
+	}
+
+#LogInDiv{
+	text-align: center;
+}
+
+#NewUserDiv{
+	text-align: center;
+}

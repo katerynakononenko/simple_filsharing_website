@@ -1,0 +1,36 @@
+/*this is the CSS styling for main.php*/
+
+body {
+	background-color: cornsilk;
+	}
+
+#UserText{
+	color: navy;
+	font-family: sans-serif;
+	font-size: 200%;
+	text-align: center;
+}
+
+#UploadForm{
+	text-align: center;
+}
+
+h1 {
+	color: navy;
+	font-family: sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	}
+
+#FilesDiv{
+	text-align: center;
+}
+
+.FileText{
+	color: darkgreen;
+}
+
+#LogoutDiv{
+	text-align: center;
+}
+
